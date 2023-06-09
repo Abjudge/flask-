@@ -1,0 +1,14 @@
+{% extends './base.html' %}
+
+
+
+{% block content %}
+    <h1> POst Info: {{post.name}} </h1>
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Body: {{post.body}}</p>
+        <p class="card-text">Created date: {{post.created_date}}</p>
+      </div>
+</div>
+{% endblock %}
